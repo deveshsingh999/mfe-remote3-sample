@@ -36,7 +36,7 @@ const plugins = [
 module.exports = {
   name: "client",
   mode: isProd ? "production" : "development",
-  entry: "./src/index.jsx",
+  entry: "./src/index.tsx",
   output: {
     path: path.join(process.cwd(), "dist"),
     filename: "bundle.js",
@@ -57,7 +57,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.(tsx?|jsx?)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -66,7 +66,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx", ".json"],
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"],
   },
   plugins,
 };
