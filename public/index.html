@@ -12,5 +12,10 @@
   <body>
     <noscript><b>Enable JavaScript to run this app.</b></noscript>
     <div id="root"></div>
+    <script>
+      if (window.location.pathname === '/') {
+        window.location.assign('/<%= MFE_NAME %>');
+      }
+    </script>
   </body>
 </html>
