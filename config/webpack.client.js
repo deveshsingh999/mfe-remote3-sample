@@ -27,7 +27,7 @@ const plugins = [
         globOptions: {
           ignore: ['**/index.html'],
         },
-        noErrorOnMissing: true,
+        // noErrorOnMissing: true,
       },
     ],
   }),
