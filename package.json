@@ -1,7 +1,7 @@
 {
-  "name": "mfe-remote1",
+  "name": "mfe-remote",
   "version": "0.1.0",
-  "description": "Microfrontend 1",
+  "description": "Microfrontend",
   "main": "index.js",
   "scripts": {
     "dev": "DEV_SERVER=true webpack-dev-server --hot --port 3001 --config config/webpack.client.js",

@@ -8,7 +8,7 @@ function User({ pageData }: UserProps) {
   return (
     <>
       <h1>User {id}</h1>
-      <span>Email: {email}</span>
+      <div>Email: {email}</div>
     </>
   );
 }
