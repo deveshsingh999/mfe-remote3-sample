@@ -30,22 +30,22 @@ const federationConfig = {
     ...deps,
     react: {
       singleton: true,
-      strictVersion: true,
+      // strictVersion: true,
       requiredVersion: deps.react,
     },
     "react-dom": {
       singleton: true,
-      strictVersion: true,
+      // strictVersion: true,
       requiredVersion: deps["react-dom"],
     },
     "react-router-dom": {
       singleton: true,
-      strictVersion: true,
+      // strictVersion: true,
       requiredVersion: deps["react-router-dom"],
     },
     rxjs: {
       singleton: true,
-      strictVersion: true,
+      // strictVersion: true,
       requiredVersion: deps.rxjs,
     },
   },
